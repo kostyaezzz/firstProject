@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 1.2em;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+header {
+    background-color: aqua;
+    text-align: center;
+}
+main {
+    background-color: lavender;
+}
+footer {
+    background-color: aqua;
+    padding: 10px 50px;
+}
+#about {
+    background-color: beige;
+    padding: 10px 50px;
+    text-align: center;
+}
+#articles {
+    background-color: coral;
+    padding: 10px 50px;
+}
+p {
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 2rem;
+    margin-bottom: 0.9rem;
+}
+h1 {
+    font-size: 2.5rem;
+}
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+a {
+    text-decoration: dashed;
+    color: rgb(255, 0, 0);
+}
+#content {
+    padding: 10px 50px;
+}
+table {
+    border-collapse: collapse;
+}
+td, th {
+    border: solid;
+}
+img {
+    border: 10px;
+    border-radius: 10px;
+    box-shadow: 10px;
+}
+#contact-form input[type="text"]{
+    height: 15px;
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: rgb(200, 176, 223);
+}
+#contact-form input[type="email"]{
+    height: 15px;
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: rgb(200, 176, 223);
+}
+#contact-form input[type=submit]{
+    background-color: rgb(147, 107, 184);
+    color: rgb(83, 20, 141);
+    height: 35px;
+    width: 120px;
+    padding: 5px;
+    text-transform: uppercase;
+    font-style: oblique;
+    font-weight: 700;
+}
+#contact-form input[type=submit]:hover{
+    background-color: rgb(200, 176, 223);
+}
+#topic{
+    background-color: rgb(200, 176, 223);
+    color: #000;
+    height: 35px;
+    width: 213px;
+    padding: 5px; 
+}
+#textline{
+    background-color: rgb(200, 176, 223);
+    color: #000;
+    height: 150px;
+    width: 200px;
+    padding: 5px;
+}
+form{
+    border: 2px solid rgb(83, 20, 141);
+    background-color: rgb(83, 20, 141);
+    width: 12%;
+    border-width: 10px;
+    color: white;
+    font-style: oblique;
+    font-size: large;
+    padding: 10px;
+    margin: auto;
+}
